@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Assignment_2.srcs/sources_1/new/dmux_2to4.vhd" \
+"../../../../Assignment_2.srcs/sources_1/new/reg_pipo_8b.vhd" \
+"../../../../Assignment_2.srcs/sources_1/new/registers_sel_2out_1in.vhd" \
+"../../../../Assignment_2.srcs/sim_1/new/reg_sel_2out_1in_tb.vhd" \
+
+# Do not sort compile order
+nosort

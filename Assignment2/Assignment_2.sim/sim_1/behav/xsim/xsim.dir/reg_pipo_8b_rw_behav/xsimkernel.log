@@ -1,0 +1,7 @@
+Running: xsim.dir/reg_pipo_8b_rw_behav/xsimk.exe -simmode gui -wdb reg_pipo_8b_rw_behav.wdb -simrunnum 0 -socket 54347
+Design successfully loaded
+Design Loading Memory Usage: 28524 KB (Peak: 28524 KB)
+Design Loading CPU Usage: 827 ms
+Simulation completed
+Simulation Memory Usage: 29544 KB (Peak: 29544 KB)
+Simulation CPU Usage: 937 ms
