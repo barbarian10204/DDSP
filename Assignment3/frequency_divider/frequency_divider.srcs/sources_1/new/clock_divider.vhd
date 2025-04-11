@@ -32,10 +32,11 @@ library IEEE;
   --use UNISIM.VComponents.all;
 
 entity clock_divider is
-  generic (N : integer := 2);
+  -- generic (N : integer := 2);
   port (clk_in  : in  STD_LOGIC;
         clk_out : out STD_LOGIC;
-        rst     : in  STD_LOGIC);
+        rst     : in  STD_LOGIC;
+        division : in integer);
 end entity;
 
 architecture Behavioral of clock_divider is
@@ -44,12 +45,14 @@ architecture Behavioral of clock_divider is
 
 begin
   divider: process (clk_in, rst)
+--    variable counter     : integer   := 0;
+--    variable clk_out_val : std_logic := '0';
   begin
     if rst = '1' then
       counter <= 0;
       clk_out_val <= '0';
     elsif rising_edge(clk_in) then
-      if counter = (N / 2 - 1) then
+      if counter = (division / 2 - 1) then
         clk_out_val <= not clk_out_val;
         counter <= 0;
       else
@@ -57,5 +60,5 @@ begin
       end if;
     end if;
   end process;
-  clk_out <= clk_out_val;
+    clk_out <= clk_out_val;
 end architecture;

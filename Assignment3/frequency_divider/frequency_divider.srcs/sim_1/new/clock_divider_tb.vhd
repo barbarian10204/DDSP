@@ -35,12 +35,14 @@ end entity;
 
 architecture Behavioral of clock_divider_tb is
   component clock_divider is
-    generic (N : integer := 50000);
+    -- generic (N : integer := 50000);
     port (clk_in  : in  STD_LOGIC;
           clk_out : out STD_LOGIC;
-          rst     : in  STD_LOGIC);
+          rst     : in  STD_LOGIC;
+          division : in integer);
   end component;
   signal clk_in, clk_out, rst : std_logic := '0';
+  signal div: integer := 4;
   constant clk_T : time := 20 ns;
 
 begin
@@ -48,7 +50,8 @@ begin
     port map (
       clk_in  => clk_in,
       clk_out => clk_out,
-      rst     => rst
+      rst     => rst,
+      division => div
     );
 
   clock: process
@@ -56,13 +59,18 @@ begin
     wait for clk_T / 2;
     clk_in <= not clk_in;
   end process;
---  testing: process
---  begin
---    wait for clk_T*10;
---    rst <= '1';
---    wait for clk_T*5;
---    rst <= '0';
---    wait;
---  end process;
+  testing: process
+  begin
+    div <= 10;
+    wait for clk_T*7;
+    rst <= '1';
+    wait for clk_T*5;
+    rst <= '0';
+    wait for clk_T*20;
+    div <= 2;
+    wait for clk_T*20;
+    div <= 40;
+    wait;
+  end process;
 
 end architecture;

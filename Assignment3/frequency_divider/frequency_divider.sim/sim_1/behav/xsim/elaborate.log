@@ -13,6 +13,6 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
-Compiling architecture behavioral of entity xil_defaultlib.clock_divider [\clock_divider(n=50000)\]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [clock_divider_default]
 Compiling architecture behavioral of entity xil_defaultlib.clock_divider_tb
 Built simulation snapshot clock_divider_tb_behav
