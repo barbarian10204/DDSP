@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Work/Documents/GitHub/DDSP/Assignment3/Assignment3/Assignment3.srcs/sources_1/new/frequency_dependend_sin_wave.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'frequency_dependend_sin_wave'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Work/Documents/GitHub/DDSP/Assignment3/Assignment3/Assignment3.srcs/sim_1/new/freq_dep_sin_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'freq_dep_sin_tb'
