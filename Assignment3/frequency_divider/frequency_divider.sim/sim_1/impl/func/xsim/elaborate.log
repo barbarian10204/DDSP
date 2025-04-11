@@ -1,0 +1,8 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot clock_divider_tb_func_impl xil_defaultlib.clock_divider_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3146] binding entity 'clock_divider' does not have generic 'n' [C:/Users/Work/Documents/Denmark/University/Semester 4/DDSP/frequency_divider/frequency_divider.srcs/sim_1/new/clock_divider_tb.vhd:38]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit clock_divider_tb in library work failed.
