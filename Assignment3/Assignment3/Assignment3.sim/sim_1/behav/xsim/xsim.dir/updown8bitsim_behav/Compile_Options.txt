@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "updown8bitsim_behav" "xil_defaultlib.updown8bitsim" -log "elaborate.log" 

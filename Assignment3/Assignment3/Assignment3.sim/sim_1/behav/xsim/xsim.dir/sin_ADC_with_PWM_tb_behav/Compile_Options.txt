@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "sin_ADC_with_PWM_tb_behav" "xil_defaultlib.sin_ADC_with_PWM_tb" -log "elaborate.log" 
