@@ -1,0 +1,7 @@
+Running: xsim.dir/counter_8b_tb_behav/xsimk.exe -simmode gui -wdb counter_8b_tb_behav.wdb -simrunnum 0 -socket 59394
+Design successfully loaded
+Design Loading Memory Usage: 28576 KB (Peak: 28576 KB)
+Design Loading CPU Usage: 1968 ms
+Simulation completed
+Simulation Memory Usage: 29860 KB (Peak: 29860 KB)
+Simulation CPU Usage: 2155 ms
