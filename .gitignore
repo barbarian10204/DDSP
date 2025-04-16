@@ -1,0 +1,11 @@
+*.bat
+*.wpc
+*.wdf
+*.rst
+*.obj
+*.mem
+*.c
+*.dbg
+*.reloc
+*.exe
+*.log
