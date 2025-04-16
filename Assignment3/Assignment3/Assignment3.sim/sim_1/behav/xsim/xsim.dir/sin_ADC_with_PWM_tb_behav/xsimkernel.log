@@ -1,4 +1,4 @@
-Running: xsim.dir/sin_ADC_with_PWM_tb_behav/xsimk.exe -simmode gui -wdb sin_ADC_with_PWM_tb_behav.wdb -simrunnum 0 -socket 61415
+Running: xsim.dir/sin_ADC_with_PWM_tb_behav/xsimk.exe -simmode gui -wdb sin_ADC_with_PWM_tb_behav.wdb -simrunnum 0 -socket 63985
 Design successfully loaded
-Design Loading Memory Usage: 28552 KB (Peak: 28552 KB)
-Design Loading CPU Usage: 1765 ms
+Design Loading Memory Usage: 29544 KB (Peak: 29544 KB)
+Design Loading CPU Usage: 2171 ms
