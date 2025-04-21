@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Assignment3.srcs/sources_1/new/PWM_8b.vhd" \
+"../../../../../frequency_divider/frequency_divider.srcs/sources_1/new/clock_divider.vhd" \
+"../../../../Assignment3.srcs/sources_1/new/couter_8bit.vhd" \
+"../../../../Assignment3.srcs/sources_1/new/frequency_dependend_sin_wave.vhd" \
+"../../../../Assignment3.srcs/sources_1/new/sin_ADC_with_PWM.vhd" \
+"../../../../Assignment3.srcs/sources_1/new/sin_ROM_clk.vhd" \
+"../../../../Assignment3.srcs/sim_1/new/sin_ADC_with_PWM_tb.vhd" \
+
+# Do not sort compile order
+nosort
