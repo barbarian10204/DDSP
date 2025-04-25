@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../sin_ROM_clk.vhd" \
-"../../../../Assignment4.srcs/sources_1/new/sin_ROM_scroll.vhd" \
-"../../../../Assignment4.srcs/sim_1/new/sin_ROM_scroll_tb.vhd" \
-
-# Do not sort compile order
-nosort
